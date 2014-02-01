@@ -1,4 +1,4 @@
 ipa-scripts
 ===========
 
-Script for IPA Service Directory
+Script for FreeIPA Service Directory (RedHat Directory Server)
