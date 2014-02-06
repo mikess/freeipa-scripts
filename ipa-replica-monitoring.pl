@@ -4,6 +4,13 @@
 #
 # (C) Michal Kulling 02.2014 <mike@mikes.pl>
 #
+# Example of output when replica server is behind master:
+#
+#   $ ./ipa-replica-monitoring.pl
+#     Replica behind of master: 1
+#     Users doesn't exists on replica:
+#     jsmith
+#
 
 use Net::LDAP;
 use Array::Utils qw ( array_diff );
